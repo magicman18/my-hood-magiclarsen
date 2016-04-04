@@ -14,6 +14,7 @@
 		986290AD1CB2C0550082E3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986290AB1CB2C0550082E3B4 /* LaunchScreen.storyboard */; };
 		986290B81CB2C0C60082E3B4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986290B71CB2C0C60082E3B4 /* Post.swift */; };
 		986290BA1CB2CAF50082E3B4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986290B91CB2CAF50082E3B4 /* PostCell.swift */; };
+		986290BC1CB2D87C0082E3B4 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986290BB1CB2D87C0082E3B4 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		986290AE1CB2C0550082E3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		986290B71CB2C0C60082E3B4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		986290B91CB2CAF50082E3B4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		986290BB1CB2D87C0082E3B4 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,11 @@
 		986290A11CB2C0550082E3B4 /* my-hood-magiclarsen */ = {
 			isa = PBXGroup;
 			children = (
-				986290B61CB2C07D0082E3B4 /* Controller */,
-				986290B51CB2C0760082E3B4 /* View */,
 				986290B41CB2C06D0082E3B4 /* Model */,
+				986290B51CB2C0760082E3B4 /* View */,
+				986290B61CB2C07D0082E3B4 /* Controller */,
 				986290A21CB2C0550082E3B4 /* AppDelegate.swift */,
-				986290A41CB2C0550082E3B4 /* ViewController.swift */,
-				986290A61CB2C0550082E3B4 /* Main.storyboard */,
 				986290A91CB2C0550082E3B4 /* Assets.xcassets */,
-				986290AB1CB2C0550082E3B4 /* LaunchScreen.storyboard */,
 				986290AE1CB2C0550082E3B4 /* Info.plist */,
 			);
 			path = "my-hood-magiclarsen";
@@ -83,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				986290B91CB2CAF50082E3B4 /* PostCell.swift */,
+				986290A61CB2C0550082E3B4 /* Main.storyboard */,
+				986290AB1CB2C0550082E3B4 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -90,6 +91,8 @@
 		986290B61CB2C07D0082E3B4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				986290A41CB2C0550082E3B4 /* ViewController.swift */,
+				986290BB1CB2D87C0082E3B4 /* AddPostVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				986290B81CB2C0C60082E3B4 /* Post.swift in Sources */,
 				986290A51CB2C0550082E3B4 /* ViewController.swift in Sources */,
+				986290BC1CB2D87C0082E3B4 /* AddPostVC.swift in Sources */,
 				986290A31CB2C0550082E3B4 /* AppDelegate.swift in Sources */,
 				986290BA1CB2CAF50082E3B4 /* PostCell.swift in Sources */,
 			);
